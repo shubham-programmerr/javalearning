@@ -27,5 +27,4 @@ public class totaldis
         System.out.println("Total price of discount of "+discount+"% :"+totalst);
 
         sc.close();
-    }
 }
