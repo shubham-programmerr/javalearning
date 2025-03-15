@@ -13,7 +13,7 @@ class Box {
 	}
 	double calculatesurface()
 	{
-		return 2*(length*width+width*height+length*height);
+		return 2*(length*width + width*height + length*height);
 	}
 	void displaydetail()
 	{
