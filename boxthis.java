@@ -13,7 +13,7 @@ class Box {
 	}
 	double calculatesurface()
 	{
-		return 2*(length*width+width*height+length*height);
+		return 2*(length*width + width*height + length*height);
 	}
 	void displaydetail()
 	{
@@ -22,7 +22,8 @@ class Box {
 		System.out.println("Surface area="+calculatesurface());
 	}
 }
-public class boxthis{
+public class boxthis
+{
 	public static void main(String[] args)
    	{
 		Box box1=new Box(1,2,3);
