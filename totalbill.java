@@ -20,7 +20,7 @@ class bill
             System.out.println("enter the qty:");
             qty[i] = sc.nextDouble();
 
-            System.out.println("enter the pricr:");
+            System.out.println("enter the price:");
             price[i] = sc.nextInt(); 
       
         }
@@ -38,13 +38,8 @@ public class totalbill{
     public static void main(String[] args)
     {
         bill sbill1 = new bill();
-        bill sbill2 = new bill();
-        
         sbill1.input();
-        sbill2.input();
-
         sbill1.allbill();
-        sbill2.allbill();
         
 
     }
