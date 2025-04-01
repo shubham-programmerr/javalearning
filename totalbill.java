@@ -39,7 +39,7 @@ public class totalbill{
     {
         bill sbill1 = new bill();
         sbill1.input();
-        sbill1.allbill();
+        sbill1.allbill();1` 
     }
 
 }
