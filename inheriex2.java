@@ -1,19 +1,19 @@
 class a{
-    a()
+    a(int a)
     {
         System.out.println("a's contructor");
     }
 }
 class b extends a{
-    b()
+    b(int a)
     {
+        super(a);
         System.out.println("b's contructor");
     }
 }
 public class inheriex2{
     public static void main(String args[])
     {
-        a h = new a();
-        b h1 = new b();
+        b h1 = new b(10);
     }
 }
